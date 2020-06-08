@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:2.1
+N;CHARSET=ISO-8859-1:Pölzelbauer;Denise ;;;
+FN;CHARSET=ISO-8859-1: Denise  Pölzelbauer
+ORG;CHARSET=ISO-8859-1:Denise Bäckerin
+URL;type=WORK;CHARSET=ISO-8859-1:https://www.baeckerin.at
+EMAIL;CHARSET=ISO-8859-1;type=WORK;type=PREF:office@baeckerin.at
+TEL;type=CELL;type=VOICE:+43 650 944 54 40
+ADR;CHARSET=ISO-8859-1;type=WORK;type=pref:;;Hauptstraße 23;Brunn a. d. Pitten;;2823;Österreich
+LABEL;WORK;PREF;ENCODING=QUOTED-PRINTABLE;CHARSET=ISO-8859-1:Hauptstraße 23=0D=0A=
+2823 Brunn a. d. Pitten Österreich
+END:VCARD

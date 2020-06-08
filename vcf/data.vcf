@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:2.1
+N;CHARSET=UTF-8:Marc Werner;Vorname ;;;
+FN;CHARSET=UTF-8:Marc Werner
+ORG;CHARSET=UTF-8:SABOCON GmbH
+URL;type=WORK;CHARSET=UTF-8:https://www.baeckerin.at
+EMAIL;CHARSET=UTF-8;type=WORK;type=PREF:marc.w@sabocon.com
+TEL;type=CELL;type=VOICE:0049 6103 98 49 37
+ADR;CHARSET=UTF-8;type=WORK;type=pref:;;Alte Bogengasse 25;Dreieich;;63303;Deutschland
+LABEL;WORK;PREF;ENCODING=QUOTED-PRINTABLE;CHARSET=UTF-8:Alte Bogengasse 25=0D=0A=
+63303 Dreieich Deutschland
+END:VCARD

@@ -1,0 +1,129 @@
+#template1 {
+background-color: #1c1c1c;
+background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+.container {
+    background: transparent!important;
+    margin-top: 20px;
+    box-shadow: none!important;
+}
+
+.classImageWrapper {
+    height: 125px;
+}
+
+.classImageWrapper img {
+    max-width: 100%;
+    object-fit: contain;
+    max-height: 100%;
+}
+
+.classTitle {
+    color: #ecf0f1;
+    font-size: 4em;
+    font-family: 'Amatic SC', cursive;
+     margin: .5em 0 .3em 0;
+
+}
+
+hr {
+    border-top: solid thin grey;
+}
+
+i {
+    color:white;
+}
+
+
+.classLoginMenuWrapper {
+    position: relative;
+    height: 4em;
+    width: 4em;
+    background: #f39c12;
+    border-radius: 50%; 
+    text-align: center;
+    cursor: pointer;
+    transition: all 500ms;
+    z-index: 999;
+}
+
+.classLoginMenuWrapper i {
+        margin-top: 45%;
+    margin-right: 10%;
+}
+
+.classLoginMenuWrapperClick {
+   border-radius: 0;
+   width: 8em;
+    background: #191919;
+   padding-top: 22%;
+}
+
+.classLoginMenu {
+    position: absolute;
+    right: -1em;
+    top: -1em;
+    transition: all 500ms;
+}
+
+.classWidth {
+    right: 0;
+
+}
+
+.classLoginMenuWrapper a {
+    display: none;
+    transition: all 500ms;
+    color: white;
+}
+
+.classLinkFx {
+    display: block!important;
+}
+
+.classDisplayNone {
+    display: none;
+}
+
+.classRowP {
+        padding: 0 1em;
+}
+
+.classTextInput {
+    color: white;
+}
+
+.classTextTitle {
+    color: #f39c12;
+    font-weight: 600;
+}
+
+.classRowMbottom {
+    margin-bottom: 1.3em;
+}
+
+.classTextInput, .classPhoneInput, .classEmailInput. .classUrlInput {
+    padding-left: .2em;
+}
+
+
+#template1 a {
+    color:#f8f9fa;
+    text-decoration: underline;
+}
+
+#template1 footer {
+    background: #191919;
+    color: #f39c12;
+    font-size: .8em;
+
+}
+
+#template1 footer a {
+    color: white;
+}

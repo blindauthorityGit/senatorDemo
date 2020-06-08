@@ -1,0 +1,468 @@
+body {
+    background: #f8f8f8;
+    font-family: helvetica, sans-serif;
+    color: #34495e;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 5em auto;
+}
+
+.imgwrapper {
+    text-align: center;
+}
+.signupbox {
+    margin: 0 auto;
+    position: relative;
+    width: 20em;
+    background: white;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1),
+        0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1),
+        0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12),
+        0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+    padding: 1.5em 0px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 17px 22px -6px #6c2f09;
+}
+
+.signupform {
+    margin: 20px 30px 30px;
+}
+
+.signupform label {
+    display: block;
+    color: #586069;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login_input {
+    background: rgb(239, 169, 52);
+    /* background: radial-gradient( circle, rgba(239, 169, 52, 1) 0%, rgba(223, 103, 28, 1) 68%, rgba(223, 103, 28, 1) 100% ); */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.login_input:hover {
+    background: rgb(233, 103, 28, 1);
+}
+
+.login_body {
+    background: rgb(239, 169, 52);
+    background: radial-gradient(
+        circle,
+        rgba(239, 169, 52, 1) 0%,
+        rgba(223, 103, 28, 1) 68%,
+        rgba(223, 103, 28, 1) 100%
+    );
+}
+
+.username,
+.password {
+    display: block;
+    border: thin solid lightgray;
+    border-radius: 3px;
+    height: 38px;
+    position: relative;
+    padding: 0 10px;
+    background-color: #fff;
+    border-color: #ccc;
+    color: #363636;
+    outline: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.signupsection {
+    margin-bottom: 1.5em;
+}
+
+#buttonNext,
+#buttonSubmit {
+    padding: 10px 30px;
+    background: #3498db;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: all 500ms;
+}
+
+#buttonBack {
+    padding: 10px 30px;
+    background: #b9bbbc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: all 500ms;
+}
+
+#buttonBack:hover {
+    background: #848687;
+}
+
+#save:hover,
+#save2:hover {
+    background: #34495e;
+}
+
+.getNewPass {
+    padding: 8px 23px;
+    background: #1abc9c;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: all 500ms;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+}
+
+.getNewPass:hover {
+    background: #16a085;
+}
+
+.alert p {
+    color: #c0392b;
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.noShow {
+    display: none;
+}
+
+.group {
+    border-bottom: solid thin rgba(90, 97, 105, 0.36);
+    padding: 1em 2em;
+}
+.plus {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.plus i {
+    transition: all 500ms;
+    cursor: pointer;
+    font-size: 2em;
+    color: #2ecc71;
+}
+
+.plus i:hover {
+    color: #27ae60;
+    font-size: 2.2em;
+}
+
+.container {
+    background: white;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1),
+        0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1),
+        0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12),
+        0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+    margin-top: 5em;
+}
+
+.inputfield,
+.name {
+    width: 100%;
+    margin: 0.25em 0 0.5em;
+    padding: 0 0.5em;
+}
+
+.choice {
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin: 3em 0;
+    cursor: pointer;
+    transition: all 500ms;
+    display: flex;
+}
+
+.choice:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.inhalt {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.choice i {
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+.text,
+.textbox {
+    background: #1abc9c;
+}
+
+.phone,
+.phonebox {
+    background: #f1c40f;
+}
+
+.email,
+.emailbox {
+    background: #e74c3c;
+}
+
+.url,
+.urlbox {
+    background: #9b59b6;
+}
+
+.image,
+.imagebox {
+    background: #e67e22;
+}
+
+.text:hover {
+    background: #16a085;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#fields {
+    margin-bottom: 10em;
+}
+
+.tite {
+    border-bottom: solid thin gray;
+    margin-bottom: 2em;
+}
+
+.tite > p {
+    margin-bottom: 2em !important;
+}
+
+.welcome {
+    margin-bottom: 3em;
+}
+
+.m-bottom {
+    margin-bottom: 1em;
+}
+
+.p-top4 {
+    padding-top: 4em;
+}
+
+.desc {
+    color: #bababa;
+    font-style: italic;
+}
+
+#trigger {
+    background: red;
+    color: white;
+}
+
+.error {
+    color: red;
+}
+
+.error_b {
+    border: solid thin red;
+}
+
+.error_msg {
+    display: none;
+    transition: all 500ms;
+}
+
+#setupContainer1 {
+}
+
+#setupContainer2 {
+    display: none;
+}
+
+#setupContainer3 {
+    display: none;
+}
+
+input {
+    padding: 0 5px;
+}
+
+.highlight {
+    background: red;
+}
+
+#input_email_error_message,
+#input_dbhost_error_message,
+#input_dbuser_error_message,
+#input_dbpw_error_message,
+#input_dbname_error_message,
+#input_title_error_message,
+#input_user_error_message,
+#input_pw_error_message {
+    display: block;
+    color: red;
+    font-size: 0.8em;
+}
+
+.classSave {
+    margin-bottom: 3em;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+    0% {
+        top: 28px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        top: -1px;
+        left: -1px;
+        width: 58px;
+        height: 58px;
+        opacity: 0;
+    }
+}
+.fullBlank {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgb(52, 73, 94, 0.5);
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms;
+    display: none;
+    z-index: 9999;
+}
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 32px 32px;
+}
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -3px 0 0 -3px;
+}
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+    top: 50px;
+    left: 50px;
+}
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+    top: 54px;
+    left: 45px;
+}
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+    top: 57px;
+    left: 39px;
+}
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+    top: 58px;
+    left: 32px;
+}
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+    top: 57px;
+    left: 25px;
+}
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+    top: 54px;
+    left: 19px;
+}
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+    top: 50px;
+    left: 14px;
+}
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+    top: 45px;
+    left: 10px;
+}
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#firma {
+    font-weight: 800;
+    font-size: 1.66em;
+}

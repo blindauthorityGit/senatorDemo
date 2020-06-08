@@ -1,0 +1,192 @@
+@media screen and (max-width: 640px) {
+    #openStammDatenBtn:before {
+        display: none;
+    }
+
+    #openStammDatenBtn:after {
+        display: none;
+    }
+
+    .sidebar {
+        position: relative;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    /* .classMainWrapper div {
+    width: 25%;
+  display: block; 
+    margin-right: 8%;
+} */
+
+    .classMainWrapper {
+        width: 80%;
+        display: flex;
+        justify-content: normal;
+        flex-wrap: wrap;
+    }
+
+    .fixed-top {
+        position: relative;
+    }
+
+    .classMainBtn {
+        margin: 0.75em 0;
+        height: 50px;
+    }
+
+    .classMainBtn p {
+        font-size: 0.75em;
+    }
+
+    .add {
+        display: none;
+    }
+
+    .navbar-dark .navbar-brand {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        width: 25%;
+    }
+
+    .navbar-nav a {
+        font-size: 0.75em;
+    }
+
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .classMarginTop5em {
+        margin-top: 1em;
+    }
+
+    .classDefaultField {
+        padding: 2em 0;
+        margin-bottom: 1em;
+    }
+
+    .m-bottom {
+        margin-bottom: 0.25em;
+    }
+
+    .classInputWrapper .col-md-10 {
+        margin-bottom: 0.75em;
+    }
+
+    .classInputWrapper {
+        font-size: 0.75em;
+    }
+
+    .classArrowContainer {
+        flex-direction: row;
+    }
+
+    .classButtonUp {
+        margin-right: 1em;
+    }
+
+    .classText,
+    .classUrl,
+    .classPhone,
+    .classEmail,
+    .classDatei {
+        margin-bottom: 0em;
+    }
+
+    .classStammDatenContainer {
+        z-index: 1002;
+        box-sizing: border-box;
+        position: absolute;
+        top: calc(17vw + 10px);
+        left: 0;
+        width: 100%;
+        /* height: 400px; */
+        background: rgb(48, 62, 79, 0.9);
+        color: white;
+        padding: 4em 2em;
+        font-size: 0.75em;
+        /* opacity: 0.9; */
+    }
+
+    .stammDatenDialogClickAway {
+        z-index: 1000;
+        box-sizing: content-box;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        /* background-color: rgba(199, 34, 62, 0.5); */
+    }
+
+    .classUserWrapper {
+        margin-bottom: 2em;
+    }
+
+    .classBg {
+        font-size: 0.75em;
+    }
+
+    .classSave {
+        margin-bottom: 3em;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .col-md-2 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .row .col-md-2 {
+        flex: 0 0 100%;
+    }
+
+    .sidebar {
+        position: relative;
+    }
+
+    .classMainWrapper {
+        width: 80%;
+        display: flex;
+        justify-content: normal;
+        flex-wrap: wrap;
+    }
+
+    .classMainWrapper div {
+        width: 18%;
+        margin-right: 2%;
+    }
+
+    #phoneBtnBorder {
+        text-align: center;
+    }
+
+    .classMarginTop5em {
+        margin-top: 3em;
+    }
+
+    .ml-sm-auto,
+    .mx-sm-auto {
+        /* margin-left: 5em !important; */
+    }
+
+    .col-lg-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 88.333333%;
+        max-width: 88.333333%;
+    }
+
+    .classSave {
+        margin-bottom: 3em;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+        padding: 0.5em 0 0.5em 1em;
+    }
+}
