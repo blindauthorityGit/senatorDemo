@@ -66,7 +66,7 @@ if (!isset($_SESSION['username']))
 
             <div class="classUserWrapper">
 
-                <div class="row m-bottom05">
+                <div class="row m-bottom05 mt-3">
 
                     <div class="col-sm">
                         Username
@@ -78,7 +78,7 @@ if (!isset($_SESSION['username']))
 
                 </div>
 
-                <div class="row m-bottom05">
+                <div class="row m-bottom05 mt-3">
 
                     <div class="col-sm">
                         Passwort
@@ -93,7 +93,7 @@ if (!isset($_SESSION['username']))
                 <!-----Passwort ändern---->
                 <div id="pwDialog" class="classPasswordWrapper">
 
-                    <div class="row m-bottom05">
+                    <div class="row m-bottom05 mt-3">
 
                         <div class="col-sm">
                             Altes Passwort
@@ -105,7 +105,7 @@ if (!isset($_SESSION['username']))
 
                     </div>
 
-                    <div class="row m-bottom05">
+                    <div class="row m-bottom05 mt-3">
 
                         <div class="col-sm">
                             Neues Passwort
@@ -117,7 +117,7 @@ if (!isset($_SESSION['username']))
 
                     </div>
 
-                    <div class="row m-bottom05">
+                    <div class="row m-bottom05 mt-3">
 
                         <div class="col-sm">
                             Neues Passwort wiederholen
@@ -132,7 +132,7 @@ if (!isset($_SESSION['username']))
                 </div>
 
                 <!-----Passwort ändern----> 
-                <div class="row m-bottom05">
+                <div class="row m-bottom05 mt-3">
 
                     <div class="col-sm">
                         Email

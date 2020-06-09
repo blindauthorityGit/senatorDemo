@@ -275,8 +275,15 @@ input {
 }
 
 #userMail,
-#userName {
+#userName,
+#oldPw,
+#newPw,
+#newConfirmPw {
     font-size: 1rem !important;
+}
+
+#userMail {
+    color: white;
 }
 
 .classText:before {
